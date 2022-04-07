@@ -1,0 +1,25 @@
+{
+  "name": "network-api",
+  "version": "1.0.0",
+  "description": "This API allows you to check the network of any Nigerian phone number",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realrazaq1/network-api.git"
+  },
+  "keywords": [],
+  "author": "Saliu Abdulrazaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realrazaq1/network-api/issues"
+  },
+  "homepage": "https://github.com/realrazaq1/network-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
