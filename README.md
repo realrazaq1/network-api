@@ -45,6 +45,12 @@ git clone https://github.com/realrazaq1/network-api.git
 cd network-api
 ```
 
+* Install dependencies
+
+```bash
+npm install
+```
+
 * Run the app
 
 ```bash
