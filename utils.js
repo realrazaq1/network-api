@@ -51,25 +51,25 @@ class Utils {
   static checkNetwork = (phoneNumber) => {
     const num = phoneNumber.slice(0, 4);
     if (exts.mtn.includes(num)) {
-      return "MTN";
+      return "mtn";
     } else if (exts.glo.includes(num)) {
-      return "Glo";
+      return "glo";
     } else if (exts.airtel.includes(num)) {
-      return "Airtel";
+      return "airtel";
     } else if (exts.ninemobile.includes(num)) {
-      return "9Mobile";
+      return "9mobile";
     } else if (exts.starcomms.includes(num)) {
-      return "Starcomms";
+      return "starcomms";
     } else if (exts.visafone.includes(num)) {
-      return "Visafone";
+      return "visafone";
     } else if (exts.multilinks.includes(num)) {
-      return "Multilinks";
+      return "multilinks";
     } else if (exts.zoom.includes(num)) {
-      return "Zoom";
+      return "zoom";
     } else if (exts.ntel.includes(num)) {
-      return "Ntel";
+      return "ntel";
     } else if (exts.smile.includes(num)) {
-      return "Smile";
+      return "smile";
     } else {
       return "Unknown";
     }
